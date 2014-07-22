@@ -1,0 +1,33 @@
+.main{
+    width:600px;
+    height:400px;
+    margin:10%;
+    background-color:#222;
+    
+}
+.tooltip{
+    display:none;
+}
+.test{
+    margin-left:200px;
+    position:relative;
+    padding:20px;
+    
+}
+.test > a{
+    padding:15px;
+}
+a:hover+span,.tooltip:hover{
+    width:50px;
+    display:block;
+    background:white;
+    padding:10px;
+    border:1px solid tomato;
+    position:absolute;
+    cursor:pointer;
+    
+}
+.tooltipbox{
+    float:left;
+    margin-left:40px;
+}
