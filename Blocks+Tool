@@ -1,0 +1,139 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+    <title>Blocks</title>
+    <meta charset="UFT-8" />
+    <meta name="description" content="This is just a site layout" />
+    <meta name="keywords" content="This is just a site layout" />
+    <meta property="og:title" content="Blocks" />
+    <meta property="og:description" content="This is a site layout" />
+    <meta property="og:type"  content="website" />
+    <meta property="og:url" content="https://blocks.html" />
+    <link rel="stylesheet" href="blocks.css" />
+</head>
+<body>
+
+    <!-- Skip Links -->
+    <div class="skip" >
+        <a href="#navigation" accesskey="n"> Skip to Navigation(Alt+N)</a>
+        <a href="#main" accesskey="n"> Skip to main (Alt+M)</a>
+        <a href="#navigation" accesskey="n"> Skip to Footer (AltL)</a>
+    </div>
+    <!-- Skip Links End -->
+
+    <!-- Masthead -->
+    <div class="masthead">
+        <div class="masthead-hd">
+                <ul class="hlist"> <!--
+                    --><li>
+                         <div> 
+                            <a href="#">Home</a>
+                            <span class="hideme" >Appear Like Magic</span>
+                         </div>   
+                    </li><!--
+                    --><li >
+                        <div>
+                            <a href="#">About</a> 
+                            <span class="hideme" >Appear Like Magic</span> 
+                        </div>    
+                    </li><!--
+                    --><li >
+                        <div>
+                            <a href="#">Location</a>
+                            <span class="hideme" >Appear Like Magic</span>
+                        </div>
+                    </li><!--
+                    --><li >
+                        <div>
+                            <a href="#">Other</a>
+                            <span class="hideme" >Appear Like Magic</span> 
+                        </div>    
+                    </li><!--
+             --></ul>
+        </div>
+        <div class="masthead-bd" >
+        </div>
+    </div>
+    <!-- Masthead end -->
+    
+    <!-- Blocks Wrapper -->
+    <h1>Main Content aka the Blocks</h1>
+    <div class="blocks blocks_4up" > 
+        <div class="block_4up ">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_black">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_green">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_white">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_red">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_orange">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_blue">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_purple">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_purple">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_yellow ">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_orange">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_green">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up block_blue">
+            <span>Block </span>
+        </div>
+        
+        <div class="block_4up">
+            <span>Block </span>
+        </div>
+        
+        <div  class="block_4up block_black">
+            <span>Block </span>
+        </div>
+    </div>
+    <!-- Blocks Wrapper end -->
+    
+    
+    <!-- Footer -->
+    <h1> Me</h1>
+    <div class="footer" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name" >Abraham Anderson</span>
+    </div>
+    <!-- Footer End -->
+    
+    
+</body>
+    
+</html>
