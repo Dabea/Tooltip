@@ -1,0 +1,196 @@
+/**
+* ======Colours for Document========
+* List of all the Colours Used          ||Hex Code/text used
+*Deep sky blue (text)                   ||deepskyblue
+*Light Gray (background for body)       ||#ddd
+*Light Black (Header/Footer/Blocks)     ||#222
+*Lighter Gray(BGC for Block/skip links) ||#999
+*Medium Gray (Border on Blocks)         ||#555
+*Orange/Red  (Outline on block)         ||Tomato
+*/
+
+/**
+* ======Colours for Block_Ext========
+*black       #111                  ==
+*blue        #002fe6;              ==
+*green       #54d632;              ==
+*orange      #FF6600;              ==
+*purple      #551A8B;              ==
+*red         #cc0000;              ==
+*yellow      #ffff32
+*white       #FFF;                 ==
+*/
+
+
+/**
+* ======Body========
+* Reset
+*/
+ body, ul, header{
+    background-size:100%;
+    color:deepskyblue;
+    margin: 0;
+	padding:0;
+}
+body{
+    background-color:#ddd;
+}
+h1{
+    display:none;
+}
+
+/**
+* ======Masthead========
+* Will contain Header stuff
+*/
+.masthead{
+    background-color:#222;
+    height:60px;
+    margin-bottom:50px;
+}
+.hlist{
+    margin-left:60%;
+    padding:10px;
+}
+.hlist > li {
+    display:inline;
+    list-style:none;
+    margin:10px;
+}
+.hlist  li > div{
+    float:left;
+    padding:15px;
+}
+.hideme{
+    display:none;
+    padding:10px;
+}
+a:hover + span, hideme:hover {
+    width:50px;
+    display:block;
+    position:absolute;
+    background:white;
+    padding:15px;
+    cursor:pointer;
+    border:1px solid tomato;
+}
+a{
+    color:deepskyblue;
+    text-decoration:none;
+    padding:15px;
+}
+
+
+/**
+* ======Skip Links========
+* This makes the invisible 
+* Also hopefully appear in the upright hand corner when they are selected
+*/
+
+.skip{
+    clip:rect(1px,1px,1px,1px);
+    position:absolute;
+    right:0;
+    top:0;
+     
+}
+
+.skip:focus, .skip:active{
+    background-color:#999;
+    border:1px solid #555;
+    position:absolute;
+    right:0;
+    top:0px;
+    padding:15px;
+    width:250px;
+
+}
+
+/**
+* ======Blocks========
+*   This is a Container
+*/
+.blocks{
+    width:75%;
+    max-width:800px;
+    margin:auto;
+    border:1px solid #555;
+    background-color:#222;
+    overflow:hidden;
+}
+.blocks_4up{
+    min-width:350px;
+}
+.blocks_8up{
+    min-width:550px;
+ }
+
+/**
+* ======block========
+*  These are the individual blocks
+*/
+.blocks >*{
+    margin-right:0;
+    margin-top:10px;
+    margin-bottom:10px;
+    float:left;
+    border:1px solid Tomato;
+    background-color:#999;
+}
+.block_4up{
+    margin-left:2.2%;
+    height:100px;
+    width:14.0%;
+    padding-left:4.0%;
+    padding-right:4.0%;
+
+}
+.block_8up{
+    margin-left:1.0%;
+    height:80px;
+    width:6.0%;
+    padding-left:2.5%;
+    padding-right:2.5%;
+}
+/**
+* ======block========
+*  These are to Modify the block colours
+*/
+.block_black{
+    background-color:#111;
+}
+.block_blue{
+    background-color:#002fe6;
+}
+.block_green{
+    background-color:#54d632;
+}
+.block_orange{
+    background-color:#FF6600;
+}
+.block_purple{
+    background-color:#551A8B;
+}
+.block_red{
+    background-color:#cc0000;
+}
+.block_yellow{
+    background-color:#ffff32;
+}
+.block_white{
+    background-color:#FFF;
+}
+/**
+* ======Footer========
+* Will contain Footer stuff
+*/
+.footer{
+    background-color:#222;
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    color:deepskyblue;
+    
+}
